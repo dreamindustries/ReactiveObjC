@@ -80,7 +80,6 @@ FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 		#import <ReactiveObjC/UIDatePicker+RACSignalSupport.h>
 		#import <ReactiveObjC/UIAlertView+RACSignalSupport.h>
 		#import <ReactiveObjC/UIActionSheet+RACSignalSupport.h>
-		#import <ReactiveObjC/MKAnnotationView+RACSignalSupport.h>
 		#import <ReactiveObjC/UIImagePickerController+RACSignalSupport.h>
 		#import <ReactiveObjC/UIRefreshControl+RACCommandSupport.h>
 		#import <ReactiveObjC/UISlider+RACSignalSupport.h>
