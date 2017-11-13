@@ -42,17 +42,17 @@ Pod::Spec.new do |s|
                             "UIButton,UICollectionReusableView,UIControl,UIDatePicker,"\
                             "UIGestureRecognizer,UIImagePicker,UIRefreshControl,"\
                             "UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,"\
-                            "UITableViewHeaderFooterView,UIText,MK}*"
+                            "UITableViewHeaderFooterView,UIText}*"
 
   s.tvos.exclude_files    = "ReactiveObjC/**/*{AppKit,NSControl,NSText,NSTable,UIActionSheet,"\
                             "UIAlertView,UIDatePicker,UIImagePicker,UIRefreshControl,UISlider,"\
-                            "UIStepper,UISwitch,MK}*"
+                            "UIStepper,UISwitch}*"
 
   s.watchos.exclude_files = "ReactiveObjC/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,"\
                             "UIButton,UICollectionReusableView,UIControl,UIDatePicker,"\
                             "UIGestureRecognizer,UIImagePicker,UIRefreshControl,"\
                             "UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,"\
-                            "UITableViewHeaderFooterView,UIText,MK,AppKit,NSControl,NSText,"\
+                            "UITableViewHeaderFooterView,UIText,AppKit,NSControl,NSText,"\
                             "NSTable,NSURLConnection}*"
 
   s.requires_arc = true
