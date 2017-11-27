@@ -3,6 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "ReactiveObjC"
   s.version      = "3.0.0"
   s.summary      = "The 2.x ReactiveCocoa Objective-C API: Streams of values over time"
+  s.static_framework = true
 
   s.description  = <<-DESC.strip_heredoc
                      ReactiveObjC (formally ReactiveCocoa or RAC) is an Objective-C
